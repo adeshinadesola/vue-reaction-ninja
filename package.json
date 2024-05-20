@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@babel/core": "^7.24.5",
     "core-js": "^3.8.3",
+    "entities": "^4.5.0",
+    "joi": "^17.13.1",
     "vue": "^3.2.13"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "^5.0.8"
   }
 }
